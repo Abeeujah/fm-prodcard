@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="center">
+        <div class="prod-card">
+          <div class="prod-img">
+            <picture>
+              <source
+                media="(min-width:1023px)"
+                srcset="./images/image-product-desktop.jpg"
+              />
+              <source
+                media="(min-width:320px)"
+                srcset="./images/image-product-mobile.jpg"
+              />
+              <img
+                class="img-sample"
+                src="./images/image-product-desktop.jpg"
+                alt="A Bottle of Gabrielle Perfume"
+              />
+            </picture>
+          </div>
+          <div class="prod-text">
+            <p class="preview">Preview</p>
+            <h1 class="prod-header">Gabrielle Essence Eau De Parfum</h1>
+            <p class="prod-tag">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="prices">
+              <p class="promo">$149.99</p>
+              <p class="strike">$169.99</p>
+            </div>
+            <a class="btn" href="#"
+              ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a
+            class="attribution-a"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="attribution-a"
+            href="https://github.com/Abeeujah"
+            target="_blank"
+            >Abeeujah</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
